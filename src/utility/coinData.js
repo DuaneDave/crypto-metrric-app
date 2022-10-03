@@ -10,7 +10,7 @@ import ethereum from '../assets/ethereum.png';
 const coinData = [
   {
     id: 1,
-    name: 'Btc',
+    name: 'Bitcoin',
     imageUrl: bitcoin,
     fullName: 'Bitcoin',
   },
