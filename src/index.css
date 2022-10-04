@@ -8,10 +8,9 @@
 
 body {
   font-family: 'Noto Sans', sans-serif;
-  line-height: 1.7;
   font-weight: 300;
   color: white;
-  background-color: #488ec7;
+  background: radial-gradient(ellipse at center, #4292d4 0%, #3b7eb4 50%, #2e70a7 100%);
 }
 
 a {
