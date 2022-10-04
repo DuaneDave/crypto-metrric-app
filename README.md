@@ -14,7 +14,10 @@ Space Travelers' Hub is an app built with React | CSS | React-router | Jest | Re
 
 ## Live Demo
 
+
+
 [Live demo](https://d-codes.netlify.app/)
+[Live presentation](https://www.loom.com/share/fcfd67d6fb774c43b365cc8b76ed0e38)
 
 ## Getting Started
 
