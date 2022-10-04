@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 import { BsArrowRight } from 'react-icons/bs';
 import styles from './Currency.module.css';
@@ -14,9 +15,9 @@ function Currency({ name, image, fullName }) {
 
   return (
     <div className={styles.card}>
-      <a>
+      <Link to={`/details/:${name}`}>
         <BsArrowRight className={styles.icon} onClick={fetchDataHandler} />
-      </a>
+      </Link>
       <div className={styles.img}>
         <img src={image} alt={name} />
       </div>
