@@ -8,11 +8,15 @@ exports[`Homepage renders correctly 1`] = `
     >
       <img
         alt="bitcoin wallet"
-        src="bitcoin-wallet.png"
+        src="wallet.png"
       />
       <div>
         <h1>
-          Stay connected to the crypto world
+          Stay
+          <br />
+          connected to
+          <br />
+          the crypto world
         </h1>
       </div>
     </section>
