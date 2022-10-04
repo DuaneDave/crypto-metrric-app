@@ -1,6 +1,6 @@
 .header {
   background: #2e6c9e;
-  padding: 2rem 1.5em;
+  padding: 1.3rem 1.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,4 +19,10 @@
 
 .mic {
   margin-right: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 1.5em 4em;
+  }
 }

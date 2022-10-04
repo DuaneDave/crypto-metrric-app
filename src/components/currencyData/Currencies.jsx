@@ -1,5 +1,5 @@
 import Currency from './currency/Currency';
-import Bitcoin from '../../assets/bitcoin-wallet.png';
+import Bitcoin from '../../assets/wallet.png';
 import styles from './Currencies.module.css';
 import coinData from '../../utility/coinData';
 
@@ -9,7 +9,13 @@ function Currencies() {
       <section className={styles.container}>
         <img src={Bitcoin} alt="bitcoin wallet" />
         <div>
-          <h1>Stay connected to the crypto world</h1>
+          <h1>
+            Stay
+            <br />
+            connected to
+            <br />
+            the crypto world
+          </h1>
         </div>
       </section>
       <section className={styles.dataWrapper}>
