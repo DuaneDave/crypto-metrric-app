@@ -11,4 +11,10 @@ body {
   line-height: 1.7;
   font-weight: 300;
   color: white;
+  background-color: #488ec7;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
