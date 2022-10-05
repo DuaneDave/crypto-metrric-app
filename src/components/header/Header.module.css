@@ -1,5 +1,28 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.header {
+  background: #2e6c9e;
+  padding: 1.3rem 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.setting,
+.mic,
+.navigation {
+  font-size: 2rem;
+}
+
+.mic {
+  margin-right: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 1.5em 4em;
+  }
 }

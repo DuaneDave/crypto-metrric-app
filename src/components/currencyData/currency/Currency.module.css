@@ -1,5 +1,41 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.card {
+  color: white;
+  box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding: 1em;
+  position: relative;
+}
+
+.card a {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 700;
+  font-weight: inherit;
+  right: 0.7rem;
+  top: 0.5rem;
+}
+
+.img {
+  height: 150px;
+  width: 150px;
+  background: #f6f8f8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img img {
+  height: 100px;
+  width: 100px;
+}
+
+.card h2 {
+  text-align: right;
+  font-size: 1.3rem;
 }
